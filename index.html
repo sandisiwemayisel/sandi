@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandisiwe charlotte Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9a952e406b.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="internimage/newlogo.jpg" class="logo>">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fa-solid fa-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            
+            
+            <div class="header-text">
+                <p>Web/App developer</p>
+                <h1>hi, i am <span>Sandisiwe Charlotte Mayisela</span><br> an ICT APP DEV Student </h1>
+                
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="internimage/download.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hi there, i am Sandisiwe Charlotte Mayisela, a dedicated and driven ICT application development student at Durban University of Technology.
+
+                       <br>I have passion for learning and combining the worlds of logic and creative design to develop eye-catching and user friendly websites and applications. 
+                        when i have free time, it's great to indulge in some of my favorite hobbies like coding and reading books.</br>
+
+                        <br>i have learned and mastered CSS, HTML, ASP.NET, JAVASCRIPT, SQL, OOP ,MVC, SCRUM, C# and system & database design, and project planning.</br>
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>Web Development</span><br> Web Development
+                            </li><li>
+                                <span>App Development</span><br> App development
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            
+                        
+                            <li>
+                                <span>2024</span><br> Web Development internship at InternCareer
+                            </li><li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+
+                                <span>2021</span><br>IT Web Development at Durban University of Technology
+                            </li><li>
+                                <span>2024</span><br> ICT App development at Durban University of Technology
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>eye-catching web design and development</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Development</h2>
+                    <p>user-friendly applivationd</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="internimage/ebooks.jpeg">
+                    <div class="layer">
+                        <h3>Web Application</h3>
+                        <p>The app helps you find the book on your interest. accessable on any website of your choice</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="internimage/foodd.jpeg">
+                    <div class="layer">
+                        <h3>mobile Application</h3>
+                        <p>Get away from hunger in just a touch of the button, I have created an application that get get you and your family your favourite meal in the comfort of your home.download it from play store</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more..</a>
+
+        </div>
+    </div>
+    
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-phone"></i> 0789254666</p>
+                        <p><i class="fa-regular fa-paper-plane"></i> sandisiwe.mayisela@gmail.com</p>
+                        <p><i class="fa-solid fa-location-dot"></i> 56 Ruby Gailey Drive Observation Hill</p>
+                        <div class="social-icons">
+                            <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://fa-linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="internimage/cvdocument.pdf"download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"> </span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>
+                   copyright 2024 <i class="fa-regular fa-copyright"></i> sandisiwe charlotte portfolio <i class="fa-regular fa-heart"></i>
+                </p>
+            </div>
+        </div>
+   
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyHoc9g6IFxHe62xHECD_4LAE4bDNnvZ3qCxC382xlqNnQoX7nvsG_-_473K0KWeTiA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const smg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML ="Message sent successsfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
