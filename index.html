@@ -14,15 +14,14 @@
         <div class="container">
             <nav>
                 <img src="internimage/newlogo.jpg" class="logo>">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <i class="fa-solid fa-xmark"></i>
+                <ul id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <i class="fa-solid fa-xmark"onclick="closemenu()"></i>
                 </ul>
-                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
             </nav>
             
             
@@ -143,9 +142,9 @@
                         <p><i class="fa-regular fa-paper-plane"></i> sandisiwe.mayisela@gmail.com</p>
                         <p><i class="fa-solid fa-location-dot"></i> 56 Ruby Gailey Drive Observation Hill</p>
                         <div class="social-icons">
-                            <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="https://fa-linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                         </div>
                         <a href="internimage/cvdocument.pdf"download class="btn btn2">Download CV</a>
                     </div>
@@ -202,6 +201,17 @@
             })
             .catch(error => console.error('Error!', error.message))
         })
+      </script>
+      <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+
+        }function closemenu(){
+            sidemenu.style.right="-200px";
+
+        }
+
       </script>
 </body>
 </html>
