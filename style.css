@@ -306,7 +306,7 @@ nav .fa-solid{
 
 @media only screen and(max-width: 600px){
     #header{
-        background-image: url(internimage/background.jpg);
+        background-image: url(internimage/wall.jpg);
     }
     .header-text
 {
@@ -320,6 +320,26 @@ nav .fa-solid{
     display: block;
     font-size: 25px;
     
+}
+nav ul{
+    background: #e20a0a;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+}
+nav ul li{
+    display: block;
+    margin: 25px;
+}
+nav ul .fa-solid{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
 }
 }
 #msg{
